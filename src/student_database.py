@@ -74,7 +74,7 @@ class StudentDatabase:
             print("\n" + "=" * 80)
             print("ALL STUDENTS")
             print("=" * 80)
-            print(
+            print(f
                 "{'ID':<5} {'First Name':<15} {'Last Name':<15} {'Email':<30} {'Enrollment Date':<15}")
             print("-" * 80)
 
@@ -91,7 +91,7 @@ class StudentDatabase:
             return students
 
         except Error as e:
-            print(f"✗ Error retrieving students: {e}")
+            print(f" Error retrieving students: {e}")
             return []
 
     def addStudent(self, first_name, last_name, email, enrollment_date):
