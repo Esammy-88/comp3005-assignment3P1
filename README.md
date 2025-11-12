@@ -170,7 +170,7 @@ Student-database-app/
 
 ## 🎥 Video Demonstration
 
-**Video Link**: []
+**Video Link**: https://youtu.be/9-7yv0C5TPU
 
 The demonstration video shows:
 1. Database setup using the provided schema
